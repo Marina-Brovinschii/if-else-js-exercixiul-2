@@ -1,0 +1,11 @@
+<script>
+    let raspunsuri = ['da', 'nu', 'evident', 'foarte probabil', 'te poti baza pe asta', 'fara indoiala', 'putin probabil']
+    let intrebare = prompt("Care este intrebarea dvs: ")
+
+    if(intrebare){
+        let ndx = Math.floor(Math.random()*7)
+        alert('Raspunsul este: ' + raspunsuri[ndx])
+    } else {
+        alert('ati anulat')
+    }
+</script>
